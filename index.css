@@ -5,21 +5,25 @@ html,*{
     box-sizing: border-box;
 }
 :root{
-   --kingColor:#000;
-    --queenColor:#cccc;
-    --pawnColor:#ffff;
+   --kingColor:#200211;
+
+    --queenColor:#FAE4E2;
+    --pawnColor:#A80E00;
     
 }
 @font-face {
     font-family:'Sora-VariableFont_wght';
     src: url('Sora-VariableFont_wght.ttf');
 }
-nav{
-    background: var(--queenColor);
-    width: 10vh;
+nav, {
+    background: var(--pawnColor);
+    width: 20vh;
+    padding: 1em;
 }
 nav ul, li,  a{
     text-decoration: none;
+    color:white ;
+    margin: 1em;
     list-style: none;
     display: flex;
     flex-direction: column;
