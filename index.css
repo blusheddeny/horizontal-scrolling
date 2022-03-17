@@ -4,8 +4,11 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+@font-face {
+    font-family:'Sora-VariableFont_wght';
+    src: url('Sora-VariableFont_wght.ttf');
+}
 body{
     display: flex;
-    font-family:url('Sora-VariableFont_wght.ttf');
+    font-family:'Sora-VariableFont_wght';
 }
