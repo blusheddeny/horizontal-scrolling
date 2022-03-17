@@ -1,4 +1,4 @@
-*{
+html,*{
     padding:0;
     height: 100%;
     margin: 0;
@@ -15,27 +15,40 @@
     src: url('Sora-VariableFont_wght.ttf');
 }
 nav{
-    position: fixed;
-    width: 100%;
     background: var(--queenColor);
-    height: 10vh;
+    width: 10vh;
 }
 nav ul, li,  a{
     text-decoration: none;
     list-style: none;
-    display: inline-block;
-}
-body{
-    min-height: 100%;
     display: flex;
     flex-direction: column;
-    font-family:'Sora-VariableFont_wght';
 }
-.panoramic-canvas, footer{
+body{
     display: flex;
-    gap:1em;
+    font-family:'Sora-VariableFont_wght';
+    height: 100vh;
+    overflow-y: hidden;
+    overscroll-behavior-y:none ;
+}
+
+.panoramic-canvas{
+    width:100vw;
+    padding: 5vw;
+    display: flex;
+    gap: 5vw;
+}
+.panoramic-canvas > img{
+    width: 15vw;
+    height: auto;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
 }
 
 footer{
-    background: var(--kingColor);
+    display: flex;
+    width: 10vh;
 }
