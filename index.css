@@ -4,11 +4,38 @@
     margin: 0;
     box-sizing: border-box;
 }
+:root{
+   --kingColor:#000;
+    --queenColor:#cccc;
+    --pawnColor:#ffff;
+    
+}
 @font-face {
     font-family:'Sora-VariableFont_wght';
     src: url('Sora-VariableFont_wght.ttf');
 }
+nav{
+    position: fixed;
+    width: 100%;
+    background: var(--queenColor);
+    height: 10vh;
+}
+nav ul, li,  a{
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+}
 body{
+    min-height: 100%;
     display: flex;
+    flex-direction: column;
     font-family:'Sora-VariableFont_wght';
+}
+.panoramic-canvas, footer{
+    display: flex;
+    gap:1em;
+}
+
+footer{
+    background: var(--kingColor);
 }
