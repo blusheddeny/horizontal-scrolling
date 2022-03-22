@@ -43,6 +43,7 @@ body{
     margin-left: 10vw;
     display: flex;
     gap: 5vw;
+    align-items: center;
 }
 .panoramic-canvas > img{
     width: 15vw;
