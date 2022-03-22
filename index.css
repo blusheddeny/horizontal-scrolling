@@ -17,7 +17,6 @@ html,*{
 nav {
     background: var(--pawnColor);
     width: 120px;
-    padding: 1em;
     position:fixed;
 }
 nav ul, li,  a{
