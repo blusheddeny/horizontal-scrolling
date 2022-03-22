@@ -6,7 +6,6 @@ html,*{
 }
 :root{
    --kingColor:#200211;
-
     --queenColor:#FAE4E2;
     --pawnColor:#A80E00;
     
@@ -15,7 +14,7 @@ html,*{
     font-family:'Sora-VariableFont_wght';
     src: url('Sora-VariableFont_wght.ttf');
 }
-nav, {
+nav {
     background: var(--pawnColor);
     width: 20vh;
     padding: 1em;
@@ -23,10 +22,12 @@ nav, {
 nav ul, li,  a{
     text-decoration: none;
     color:white ;
-    margin: 1em;
     list-style: none;
     display: flex;
     flex-direction: column;
+}
+nav > a{
+    margin: 1em;
 }
 body{
     display: flex;
